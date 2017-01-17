@@ -1,13 +1,8 @@
-;;; Test cases for Scheme.
 ;;;
-;;; In order to run only a prefix of these examples, add the line
+;;; Test cases for Scheme Interpreter.
 ;;;
-;;; (exit)
-;;;
-;;; after the last test you wish to run.
 
 ;;; **********************************
-;;; *** Add more of your own here! ***
 
 (begin (- 5 3) (* 5 6))
 ; expect 30
