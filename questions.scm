@@ -19,7 +19,6 @@
 		(else
 			(cons (map (lambda (x) (car x)) pairs) (cons (map (lambda (x) (car (cdr x))) pairs) nil)))))
 
-;; Problem 18
 ;; Returns a list of two-element lists
 (define (enumerate-helper s x)
 	(if (null? s)
@@ -28,9 +27,7 @@
 
 (define (enumerate s)
   (enumerate-helper s 0))
-  ; END Question 18
 
-;; Problem 19
 ;; List all ways to make change for TOTAL with DENOMS
 (define (list-change total denoms)
 	(cond
@@ -41,10 +38,6 @@
 			(append (cons-all (car denoms) (list-change (- total (car denoms)) denoms)) (list-change total (cdr denoms))))))
 )
 
-
-  ; END Question 19
-
-;; Problem 20
 ;; Returns a function that checks if an expression is the special form FORM
 (define (check-special form)
   (lambda (expr) (equal? form (car expr))))
@@ -77,11 +70,3 @@
         (else
          (map analyze expr)
          ))))
-
-;; Problem 21 (optional)
-;; Draw the hax image using turtle graphics.
-(define (hax d k)
-  ; BEGIN Question 21
-  'REPLACE-THIS-LINE
-  )
-  ; END Question 21
