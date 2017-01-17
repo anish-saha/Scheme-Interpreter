@@ -1,6 +1,6 @@
 # Scheme-Interpreter
 
-Run this program using the command 'python3 ucb.py' and you should see:
+Run this program using the command `python3 ucb.py` and you should see:
 
 ![Alt text](SchemeEx.png)
 
